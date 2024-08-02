@@ -1,7 +1,7 @@
 import React from "react";
 import './BackgroundCover.css'
 
-const BackgroundCover=({name})=>{
+const BackgroundCover=()=>{
     return (
         <section className="background-fill">
            
