@@ -19,7 +19,6 @@
     list-style: none;
     display: flex;
     gap: 5rem;
-    margin-right: 100px;
   }
   
   .navbar-links li {
@@ -36,6 +35,21 @@
     cursor: pointer;
   }
 
+  #create-accout-button{
+    border:none;
+    color:white;
+    background-color: transparent;
+    width: 100px;
+    margin-right: 100px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  #create-account-button svg{
+    margin-left: 10px;
+  }
   @media (max-width:1030px) {
     .navbar-title {
       margin-left: 70px;

@@ -1,5 +1,65 @@
-.page-two-background-content{
-    background-color: rgb(30, 30, 30);
+.page-two-background-content {
+    position: relative;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 34, 54, 0) 0%,
+      rgb(0, 34, 54) 35%
+    );
     width: 100%;
-    height: 720vh;
-}
+    height: 110vh;
+    margin-top: -50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #point-one{
+    margin-top: 5%;
+    height: 550px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-section-left{
+    margin-top: 50px;
+    width: 60%;
+    height: 100%;
+  }
+
+  #first-point{
+    margin-top: -40px;
+    font-size: 190px;
+    color: rgba(255, 255, 255, 0.148) 
+
+  }
+
+  #point-one-detail{
+    margin-top: -340px;
+    margin-left: 100px;
+    width: 500px;
+    height: 350px;
+  }
+
+  #point-one-detail h1{
+    font-size: 60px;
+    color: white;
+    font-family: serif;
+    font-weight: 500;
+    margin-top: -10px;
+    margin-bottom: 0px;
+  }
+
+  #point-one-detail p{
+    font-family: serif;
+
+    color: white;
+  }
+
+  .image-section-left{
+    width: 487px;
+    height: 100%;
+    background-image: url('./Images/NatureAtItsPeekFour.jpg');
+    background-size: cover;
+    background-position: center;
+  }
