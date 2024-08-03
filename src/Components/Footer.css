@@ -1,137 +1,61 @@
 .footer-page{
+    margin-top: -3.5vh;
     width: 100%;
-    height: 76vh;
-    background-color: black;
-}
-
-.footer-section{
-    width: 100%;
-    height: 60vh;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-}
-
-.footer-section div{
-    color: white;
-    height: 90%;
-    padding-top: 50px;
-}
-
-.footer-section div p{
-    margin-bottom: 30px;
+    height: 70vh;
+    background-color: rgb(0, 34, 54);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .follow-us-section{
+    margin-left: 100px;
     display: none;
     display: block;
-    padding-left: 100px;
-    width: 200px;
+    width: 350px;
     color: white;
+    /* background-color: blueviolet; */
 }
 
 .follow-us-section h1{
     font-size: 30px;
+    font-family: serif;
 }
 
 .follow-us-section p{
-    padding-top: 50px;
+    font-family: serif;
+    padding-top: 0px;
+    padding-bottom: -10px;
 }
 
-.svg-follow-icons{
-    margin-top: 25px;
-    width: 120px;
-    height: 50px;
+#copyright{
+    padding-top: 100px;
+    color: rgba(255, 255, 255, 0.405);
+}
+
+.links{
+    margin-right: 100px;
+    width: 540px;
+    height: 300px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px
 }
 
-.links-footer{
-    margin-top: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+#more-on-the-blog{
+    height:100%;
+    color:white;
 }
 
-.horizontal-line-footer-section{
-    margin-top: 0px;
-    width: 100%;
-    height: 1px;
-    background-color: white;
+#more-on-the-blog h5{
+    color: #F4D03F;
 }
 
-footer{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    
+#more-on-mntn{
+    height: 100%;
+    color:white;
 }
 
-footer p{
-    margin-top: 40px;
-    margin-left: 100px;
+#more-on-mntn h5{
+    color: #F4D03F;
 }
-  
-.navbar-links p {
-    margin-left: 0px;
-}
-
-@media (max-width:1100px) {
-    .horizontal-line-footer-section{
-        margin-top: 40px;
-    }
-    footer p{
-        margin-left: 70px;
-        font-size: 14px;
-    }
-    @media (max-width:769px) {
-        .footer-page{
-            height: 133vh;
-        }
-        .follow-us-section{
-            padding-left: 70px;
-            width: 200px;
-        }
-        .footer-section{
-            grid-template-columns: repeat(2, 1fr);
-            gap:0px
-        }
-        .horizontal-line-footer-section{
-            margin-top: 400px;
-        }
-        footer{
-            margin-top: 5px;
-            height: 0px;
-        }
-        footer p{
-            margin-left: 30px;
-            font-size: 10px;
-            height: 0px;
-        }
-        @media (max-width:425px) {
-            .follow-us-section{
-                padding-left: 30px;
-                width: 160px;
-            }
-            .follow-us-section h1{
-                font-size: 25px;
-            }
-            .links-footer p{
-                font-size: 14px;
-            }
-            footer{
-                display: flex;
-                align-items: center;
-            }
-            @media (max-width:375px) {
-                .links-footer p{
-                    font-size: 10px;
-                }
-            }
-        }
-    }
-}
-

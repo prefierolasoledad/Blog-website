@@ -1,3 +1,4 @@
+import Footer from "./footer";
 import HeroSection from "./HeroSection";
 import PageFour from "./PageFour";
 import PageThree from "./PageThree";
@@ -10,6 +11,7 @@ const HomePage=()=>{
             <PageTwo/>
             <PageThree/>
             <PageFour/>
+            <Footer/>
         </div>
     );
 }
