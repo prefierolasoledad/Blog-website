@@ -1,6 +1,7 @@
 import React from "react";
 import NautreAtItsPeek from './Images/NatureAtItsPeek.jpg'
 import './PageFour.css';
+import './PageTwo.css';
 
 const PageFour=()=>{
     return (

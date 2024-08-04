@@ -11,7 +11,7 @@ const HomePage=()=>{
             <PageTwo/>
             <PageThree/>
             <PageFour/>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     );
 }

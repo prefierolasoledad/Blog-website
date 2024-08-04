@@ -3,15 +3,18 @@ import NatureOfTheVillage from './Images/NatureOfTheVillage.jpg';
 import './PageThree.css';
 
 const PageThree=()=>{
+    const screenWidth=window.innerWidth;
+
+   
     return (
         <section className="page-Three-background-content">
             <div id="point-two">
-                <aside style={{backgroundImage:`url(${NatureOfTheVillage})`}} className="image-section-left"></aside>
+                <aside style={{backgroundImage:`url(${NatureOfTheVillage})`, width:(screenWidth<920)?(screenWidth<700)?'':'40%':''}} className="image-section-left"></aside>
                 <aside className="text-section-left">
-                    <h1 style={{marginLeft:'100px'}} id="first-point">
+                    <h1 style={{marginLeft:(screenWidth>700)?'10%':(screenWidth>500)?'-35%':'0%'}} id="first-point">
                         02
                     </h1>
-                    <div style={{marginLeft:'210px'}}  id="point-one-detail">
+                    <div style={{marginLeft:(screenWidth>700)?'26%':(screenWidth>500)?'0%':'11%'}}  id="point-one-detail">
                         <div id="hero-section-heading-part-one">
                             <div style={{width:'60px'}} id="part-one-hl"></div>
                             <h5>

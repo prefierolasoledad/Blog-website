@@ -58,6 +58,9 @@
       gap: 3rem;
       margin-right: 70px;
     }
+    #create-accout-button{
+      margin-right: 70px;
+    }
     @media (max-width:770px) {
       .navbar{
         padding: 0rem;
@@ -69,9 +72,15 @@
         gap: 2rem;
         margin-right: 30px;
       }
+      #create-accout-button{
+        margin-right: 30px;
+      }
       @media (max-width:600px){
         .navbar-title{
           margin-top: 20px;
+        }
+        #create-accout-button{
+          padding-top: 20px;
         }
         .navbar-links{
           display: none;
